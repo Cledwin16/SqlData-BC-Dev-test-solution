@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="5f541e03-c688-42a8-b095-5062dab6bf84" ChangeDateTime="07/26/2023 12:28:35">
+    <Property Name="ElementName" Value="[dbo].[ContactsTable].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ContactsTable]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ClientCode" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4f2830cb-9c71-486e-8607-35a8d4041093" ChangeDateTime="07/27/2023 00:33:22">
+    <Property Name="ElementName" Value="[dbo].[CentralRecordTable].[Name]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CentralRecordTable]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Client Name" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c1eabe42-9cc3-4cd6-84f8-55e36cbbd83a" ChangeDateTime="07/27/2023 00:33:39">
+    <Property Name="ElementName" Value="[dbo].[CentralRecordTable].[Surname]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CentralRecordTable]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Contact Name" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b9c7a5e3-723d-4ea8-b14d-846f96b8b9dc" ChangeDateTime="07/27/2023 00:33:57">
+    <Property Name="ElementName" Value="[dbo].[CentralRecordTable].[Email]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CentralRecordTable]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Contact Surname" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4ef7c05c-cbc1-4ee5-b339-d002f753662b" ChangeDateTime="07/27/2023 10:45:55">
+    <Property Name="ElementName" Value="[dbo].[CentralRecordTable].[Client Name]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CentralRecordTable]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Client_Name" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="60cd0137-d4cf-44f8-8953-3b3a7884b466" ChangeDateTime="07/27/2023 10:46:04">
+    <Property Name="ElementName" Value="[dbo].[CentralRecordTable].[Contact Name]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CentralRecordTable]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Contact_Name" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4df99ddd-1e16-4125-b3c0-3b1dbe705166" ChangeDateTime="07/27/2023 10:46:10">
+    <Property Name="ElementName" Value="[dbo].[CentralRecordTable].[Contact Surname]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CentralRecordTable]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Contact_Surname" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="13989d1c-bfd3-487d-9373-394b281cbf5f" ChangeDateTime="07/27/2023 10:46:24">
+    <Property Name="ElementName" Value="[dbo].[CentralRecordTable].[Contact Email]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CentralRecordTable]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Contact_Email" />
+  </Operation>
+</Operations>
